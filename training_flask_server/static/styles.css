@@ -1,0 +1,46 @@
+body{
+    background: aliceblue;
+}
+
+.navbar{
+    background-color: black;
+    width: 100%;
+    text-align: center;
+}
+
+.navbar a{
+    float: none;
+    color: aliceblue;
+    text-align: center;
+    font-size: 110%;
+    padding: 1px 6px 1px 6px;
+    margin: -2px;
+    text-decoration: none;
+}
+
+.navbar a:hover{
+    background: aliceblue;
+    color: black;
+}
+
+form{
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form_aut{
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+}
+
+.form_aut legend{
+    color: aliceblue;
+    text-align: center;
+}
+
+.form_aut p{
+    text-align: center;
+    color: aliceblue;
+}

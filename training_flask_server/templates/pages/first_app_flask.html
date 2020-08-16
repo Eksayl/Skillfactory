@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta http-equiv = "Content-Type" content = "text/html; charset=UTF-8">
+    <title>Моё превое приложение на Flask</title>
+    <link rel = "stylesheet" href = "../../static/styles.css">
+</head>
+<body style="background-color: black">
+    <nav class = "navbar">
+        <a href = "../test.html">Главная</a>
+        <a href = "contacts.html">Контакты</a>
+        <a href= "mem.html">Мем</a>
+    </nav>
+    <div style = "text-align: center">
+        <form action='/answer2' autocomplete = off method='POST'><br>
+              <fieldset class = "form_aut">
+                <legend>Введите строку для сортировки</legend>
+                <p><label for="string">Строка</label><input type="text" id="string" name ='string'></p>
+              </fieldset>
+            <p><input type="submit" value="Сортировать"></p><br>
+            <p style="color: aliceblue;"><label>Отсортированная строка:</label>{{ans}}</p>
+        </form>
+    </div>
+</body>
+</html>
